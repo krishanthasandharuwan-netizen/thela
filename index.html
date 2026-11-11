@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080809">
+  <meta name="description" content="Thela වෙනුවෙන් Trip එක යමු! A cinematic Nuwara Eliya friend-group trip planner. Explore places, preview the plan and join the WhatsApp group.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="thela | Thela වෙනුවෙන් Trip එක යමු!">
+  <meta property="og:description" content="One destination. Unlimited memories. Nuwara Eliya trip — come join the crew!">
+  <meta property="og:image" content="assets/social-preview.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+Sinhala:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>thela — Thela වෙනුවෙන් Trip එක යමු!</title>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <div class="film-grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#home" class="wordmark" aria-label="thela Home"><span>THELA</span> <span class="wordmark-dot">.</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#places">Explore</a>
+        <a class="nav-link" href="#plan">Trip Plan</a>
+        <a class="nav-link" href="#budget">Budget</a>
+        <a class="nav-link" href="#join">Join Us</a>
+      </nav>
+      <div class="header-right">
+        <span class="header-badge"><span class="live-dot"></span> TRIP IN PLANNING</span>
+        <a class="avatar-link" href="#join" aria-label="View group invitation"><img src="assets/thela-portrait.webp" alt="Thela smiling"></a>
+        <button id="menuToggle" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="#home">Home</a><a href="#places">Explore places</a><a href="#plan">Trip plan</a><a href="#budget">Budget calculator</a><a href="#join">Join WhatsApp</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="home" aria-label="Thela Nuwara Eliya trip">
+      <img class="hero-image" src="assets/nuwara-eliya-cinematic.webp" alt="Cinematic illustration of misty hills and tea country in Nuwara Eliya" fetchpriority="high">
+      <div class="hero-tint" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="show-label"><span class="red-t">T</span> <span class="show-label-text">A THELA ORIGINAL EVENT</span></div>
+          <p class="eyebrow"><span class="eyebrow-bar"></span> NUWARA ELIYA EDITION <span class="eyebrow-dot">•</span> SEASON 01</p>
+          <h1 class="hero-title"><span>තෙලා වෙනුවෙන්</span><strong><em>TRIP</em> එක යමු<span class="exclaim">!</span></strong></h1>
+          <p class="hero-descriptor">Not just a trip. <span>It's a whole episode.</span></p>
+          <div class="hero-meta"><span class="match-score">100% FRIENDSHIP MATCH</span><span>2026 EDITION</span><span class="rating-chip">U/A 13+</span><span>1 EPIC ADVENTURE</span></div>
+          <p class="hero-description">සීතල නුවරඑළිය, සුපිරි locations, යාළුවෝ එක්ක පිස්සු memories... මේ trip එකට ඔයාත් එනවද? 🌿🔥</p>
+          <div class="hero-actions">
+            <a class="btn btn-light" href="#plan"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8L7 4z"/></svg> Explore the Plan</a>
+            <button class="btn btn-glass" type="button" id="moreInfoBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v1"/></svg> More Info</button>
+          </div>
+          <div class="hero-bottom-stat"><div class="stacked-avatars"><img src="assets/thela-portrait.webp" alt="Thela" /><span>+</span></div><div><strong>THE CREW IS ASSEMBLING</strong><small>Bring your friends. Make the memories.</small></div></div>
+        </div>
+        <div class="feature-poster" aria-label="Thela, star of the trip">
+          <div class="poster-orbit"></div>
+          <div class="poster-photo"><img src="assets/thela-portrait.webp" alt="Thela, the face of this trip" /></div>
+          <div class="poster-label"><span class="poster-star">★</span><div><b>THE MAIN CHARACTER</b><span>Starring THELA</span></div></div>
+          <div class="poster-spark spark-1">✦</div><div class="poster-spark spark-2">✳</div>
+        </div>
+      </div>
+      <div class="hero-scroll"><span class="scroll-line"></span> SCROLL TO DISCOVER</div>
+      <div class="hero-bottom-fade"></div>
+    </section>
+
+    <section class="section section-places" id="places">
+      <div class="section-heading"><div><p class="kicker"><span class="red-square"></span> THE LOCATION LINEUP</p><h2>Trending in <span>Nuwara Eliya</span> <span class="section-arrow">›</span></h2><p class="section-sub">The places we could turn into legendary memories.</p></div><div class="rail-buttons"><button id="railPrev" type="button" aria-label="Scroll places left">‹</button><button id="railNext" type="button" aria-label="Scroll places right">›</button></div></div>
+      <div class="places-track" id="placesTrack" aria-label="Places to visit"></div>
+      <p class="section-note">Tap any card to see details. Tap <span class="heart-inline">♥</span> to save a place to <b>My Picks</b> on this device.</p>
+    </section>
+
+    <section class="section special-section" id="special">
+      <div class="section-heading"><div><p class="kicker"><span class="red-square"></span> THE MAIN EVENT</p><h2>Why this trip <span>hits different</span></h2></div></div>
+      <div class="feature-grid">
+        <article class="special-card special-card-tall"><div class="icon-tile">✦</div><span class="micro-label">THE EXPERIENCE</span><h3>Zero stress.<br>Maximum <em>chaos.</em></h3><p>අලුත් memories, පට්ට views, අමතක නොවෙන යාළුකම්. This one is for the group chat.</p><div class="special-mini-art"><span>01</span><span>THE ADVENTURE</span></div></article>
+        <article class="special-card"><div class="icon-tile">◎</div><span class="micro-label">THE LOCATION</span><h3>Cool air.<br><em>Hot memories.</em></h3><p>Foggy mornings, mountain views and plenty of photo stops.</p></article>
+        <article class="special-card"><div class="icon-tile">♫</div><span class="micro-label">THE ENERGY</span><h3>The soundtrack?<br><em>Our laughter.</em></h3><p>Road-trip songs, endless jokes, and stories for years.</p></article>
+        <article class="special-card special-card-date"><div class="icon-tile">◷</div><span class="micro-label">THE RELEASE DATE</span><h3 id="dateStatusHeading">Date: <em>Coming soon</em></h3><p id="dateStatusText">Pick a date that works for you below. Final date to be decided in the group.</p><a href="#date-planner" class="inline-link">Suggest a date <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="section plan-section" id="plan">
+      <div class="section-heading"><div><p class="kicker"><span class="red-square"></span> THE STORYLINE</p><h2>The Trip <span>Episode Guide</span></h2><p class="section-sub">A sample 2-day / 1-night itinerary — edit together in WhatsApp.</p></div><span class="plan-pill">PROPOSED PLAN · NOT BOOKED</span></div>
+      <div class="itinerary-wrapper">
+        <div class="itinerary-visual"><div class="itinerary-visual-cover"><img src="assets/nuwara-eliya-cinematic.webp" alt="Misty Nuwara Eliya hills" /><span class="scene-title">THE<br><b>GETAWAY.</b></span><span class="scene-tag">S01 / NUWARA ELIYA</span></div><div class="itinerary-visual-bottom"><span>STARRING THE WHOLE GANG</span><span>✦ 4K MEMORIES</span></div></div>
+        <div class="itinerary-content"><div class="day-tabs" role="tablist" aria-label="Itinerary day"><button id="day1Tab" class="day-tab active" role="tab" type="button" aria-selected="true" aria-controls="timelinePanel" data-day="1">EPISODE 01 <small>Day One</small></button><button id="day2Tab" class="day-tab" role="tab" type="button" aria-selected="false" aria-controls="timelinePanel" data-day="2">EPISODE 02 <small>Day Two</small></button></div><div class="timeline" id="timelinePanel" role="tabpanel" aria-live="polite"></div><p class="timeline-disclaimer">* Suggested times only. The route, costs and activities need group confirmation.</p></div>
+      </div>
+    </section>
+
+    <section class="section interactive-section" id="date-planner">
+      <div class="mini-grid">
+        <div class="date-card"><div class="card-headerline"><span class="mini-icon">▦</span><span>MAKE IT OFFICIAL</span></div><h2>When do we <em>go?</em></h2><p>No date locked yet. Save a date you prefer, then share it in the WhatsApp group.</p><label for="tripDate">Your preferred date</label><div class="date-input-wrap"><input type="date" id="tripDate" aria-label="Your preferred trip date"><button type="button" id="saveDateBtn">Save date</button></div><p class="stored-notice" id="dateSavedMessage">Your selection stays on this device. It doesn't update the group's date automatically.</p></div>
+        <div class="picks-card"><div class="card-headerline"><span class="mini-icon">♡</span><span>YOUR PERSONAL WATCHLIST</span></div><h2>My <em>Picks</em> <span class="picks-count" id="picksCount">0</span></h2><p>Save your favorite places from the cards above.</p><div id="pickedPlaces" class="selected-places"><span class="empty-picks">No picks yet. Go explore the locations ↑</span></div><button type="button" id="copyPicksBtn" class="btn btn-outline"><span>↗</span> Copy my trip picks</button><p class="stored-notice">Your picks are private to this browser until you share them.</p></div>
+      </div>
+    </section>
+
+    <section class="section budget-section" id="budget">
+      <div class="section-heading"><div><p class="kicker"><span class="red-square"></span> THE BUDGET LAB</p><h2>Big memories. <span>Smart budget.</span></h2><p class="section-sub">Play with the estimates to see how the group size changes the split.</p></div><span class="plan-pill">ILLUSTRATIVE ESTIMATE ONLY</span></div>
+      <div class="budget-layout">
+        <div class="budget-controls"><div class="range-row"><label for="peopleRange">People coming <output id="peopleVal">12</output></label><input type="range" id="peopleRange" min="4" max="30" step="1" value="12"><div class="range-ends"><span>4 FRIENDS</span><span>30 FRIENDS</span></div></div><div class="range-row"><label for="transportRange">Vehicle / transport for the whole group <output id="transportVal">Rs. 42,000</output></label><input type="range" id="transportRange" min="10000" max="120000" step="2000" value="42000"><div class="range-ends"><span>Rs. 10K</span><span>Rs. 120K</span></div></div><div class="range-row"><label for="stayRange">Stay per person <output id="stayVal">Rs. 3,500</output></label><input type="range" id="stayRange" min="0" max="12000" step="500" value="3500"><div class="range-ends"><span>Rs. 0</span><span>Rs. 12K</span></div></div><div class="range-row"><label for="extrasRange">Food + activities per person <output id="extrasVal">Rs. 3,000</output></label><input type="range" id="extrasRange" min="500" max="12000" step="500" value="3000"><div class="range-ends"><span>Rs. 500</span><span>Rs. 12K</span></div></div></div>
+        <div class="budget-result"><div class="budget-result-top"><span>ESTIMATED COST PER PERSON</span><span class="estimate-icon">↗</span></div><div class="budget-number" id="perPersonCost">Rs. 10,000</div><p>Just a planning sandbox, not a real booking or verified price quote.</p><div class="budget-divider"></div><div class="budget-line"><span>Whole group estimate</span><strong id="groupTotal">Rs. 120,000</strong></div><div class="budget-line"><span>Friends splitting the bill</span><strong id="peopleTotal">12 people</strong></div><a href="#join" class="btn btn-red budget-cta">Discuss budget with the group <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="join-section" id="join"><div class="join-glow"></div><div class="join-inner"><div class="join-copy"><p class="kicker"><span class="red-square"></span> THE FINAL CALL</p><div class="join-overline">YOUR SEAT IS WAITING</div><h2>Don't just watch<br>the adventure.<br><em>BE IN IT.</em></h2><p>Trip updates, final date, travel arrangements and all the ridiculous group-chat planning — මේ හැමදේටම group එකට join වෙන්න.</p><div class="join-buttons"><a class="btn btn-red btn-big" href="https://chat.whatsapp.com/JLyJXWy0EsLGRzQc8TlM93?mode=gi_t" target="_blank" rel="noopener noreferrer">JOIN THE WHATSAPP GROUP <span>↗</span></a><button class="btn btn-glass" id="copyLinkBtn" type="button">Copy invite link</button></div><p class="join-small">WhatsApp opens in a new tab. Group membership is managed by WhatsApp.</p></div><div class="join-invite"><div class="invite-top"><img src="assets/thela-portrait.webp" alt="Thela"/><div><b>THELA TRIP CREW</b><span>WhatsApp group invitation</span></div><span class="qr-live">● LIVE</span></div><div class="qr-panel"><img src="assets/whatsapp-qr.png" alt="Scan this QR code to join the group in WhatsApp"></div><div class="invite-bottom"><span>SCAN TO JOIN</span><span>thela ORIGINAL</span></div></div></div></section>
+
+    <section class="section faq-section" id="faq"><div class="section-heading"><div><p class="kicker"><span class="red-square"></span> BEFORE THE CREDITS ROLL</p><h2>Good questions, <span>great trip.</span></h2></div></div><div class="faq-list"><details><summary>Trip date එක confirm ද? <span class="plus-icon">+</span></summary><p>නෑ — තවම final date එකක් fix කරලා නැහැ. ඔයාගේ preferred date එක save කරලා WhatsApp group එකේ discuss කරන්න.</p></details><details><summary>Budget එක final ද? <span class="plus-icon">+</span></summary><p>නෑ. මේක interactive estimate එකක් විතරයි. Actual transport, hotel, food, ticket prices හා bookings WhatsApp group එකෙන් confirm කරගන්න.</p></details><details><summary>Trip plan එක change කරන්න පුළුවන්ද? <span class="plus-icon">+</span></summary><p>ඔව්! මේ දවස් දෙකේ plan එක proposal එකක්. ඔයාලා කැමති locations, date සහ schedule group එකේ decide කරගන්න.</p></details><details><summary>How do I join the trip? <span class="plus-icon">+</span></summary><p>“Join the WhatsApp Group” button එක click කරන්න, නැත්නම් QR code එක scan කරන්න. Join වෙනවා කියන්නේ seat එකක්/bookings confirm වීමක් නෙවෙයි.</p></details></div></section>
+  </main>
+  <footer class="footer"><div class="footer-main"><a class="wordmark footer-wordmark" href="#home"><span>THELA</span> <span class="wordmark-dot">.</span></a><p>Made for Thela & the crew. One trip, infinite stories.</p><a class="footer-whatsapp" target="_blank" rel="noopener noreferrer" href="https://chat.whatsapp.com/JLyJXWy0EsLGRzQc8TlM93?mode=gi_t">Join the group ↗</a></div><div class="footer-rule"></div><div class="footer-bottom"><span>© 2026 thela · An unofficial friends' trip website · Not affiliated with Net </span><span><a href="credits.html">Photo credits & licenses</a> <span class="footer-sep">·</span> <a href="#home">Back to top ↑</a></span></div></footer>
+
+  <div class="modal" id="infoModal" aria-hidden="true"><div class="modal-backdrop" data-close="info"></div><div class="modal-box modal-info" role="dialog" aria-modal="true" aria-labelledby="infoTitle"><button type="button" class="modal-close" data-close="info" aria-label="Close">×</button><div class="modal-banner"><img src="assets/nuwara-eliya-cinematic.webp" alt="Misty hill-country landscape" /><div class="modal-banner-shade"></div><h2 id="infoTitle">THELA: <em>THE GETAWAY</em></h2></div><div class="modal-body"><div class="modal-meta"><span class="match-score">100% FRIENDSHIP MATCH</span><span>Nuwara Eliya</span><span>Trip date TBA</span></div><p>One unforgettable journey to the hills, starring Thela and the entire gang. A sample 2-day adventure through lakes, tea country, gardens and good times. Everything is up for discussion in the WhatsApp group.</p><div class="modal-actions"><a class="btn btn-light" href="#plan" data-close="info">See the Plan</a><a class="btn btn-red" target="_blank" rel="noopener noreferrer" href="https://chat.whatsapp.com/JLyJXWy0EsLGRzQc8TlM93?mode=gi_t">Join the Crew ↗</a></div></div></div></div>
+  <div class="modal" id="placeModal" aria-hidden="true"><div class="modal-backdrop" data-close="place"></div><div class="modal-box modal-place" role="dialog" aria-modal="true" aria-labelledby="placeTitle"><button type="button" class="modal-close" data-close="place" aria-label="Close">×</button><div class="place-modal-cover"><img id="placeModalImage" src="assets/nuwara-eliya-cinematic.webp" alt="Location scenic photograph"/><div class="place-modal-shade"></div><span id="placeModalNumber">01 / 06</span></div><div class="modal-body"><p class="kicker"><span class="red-square"></span> TRIP DESTINATION</p><h2 id="placeTitle">Gregory Lake</h2><p id="placeDesc"></p><div class="modal-actions"><a id="placeMapLink" class="btn btn-light" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Nuwara%20Eliya">View on Maps ↗</a><button id="placeSaveBtn" type="button" class="btn btn-red">♡ Add to My Picks</button></div></div></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>
